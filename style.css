@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+
+body {
+  background-color: black;
+  font-family: 'Spartan', sans-serif;
+  margin: 0%;
+  color: white;
+
+
+}
+
+.text-area-first-page {
+  margin: auto;
+  display: block;
+  margin: 5% 35%;
+  width: 30rem;
+  height: 2.5rem;
+  animation: glow 1.5s ease-in-out infinite alternate;
+  font-family: 'Spartan', sans-serif;
+  font-size: 2rem;
+}
+
+.name {
+  color: black;
+  font-size: 80px;
+  text-align: center;
+  margin: 13% 0 0;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.span-neon {
+  font-size: 5rem;
+  animation: glow 1s ease-in-out infinite alternate;
+  color: black;
+}
+
+.welcome-user {
+  padding: 3rem 0 0;
+  margin-top: 1rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px rgb(50, 237, 243), 0 0 30px rgb(50, 237, 243), 0 0 40px rgb(50, 237, 243), 0 0 50px rgb(50, 237, 243), 0 0 60px rgb(50, 237, 243), 0 0 70px rgb(50, 237, 243);
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px rgb(0, 247, 255), 0 0 40px rgb(0, 247, 255), 0 0 50px rgb(0, 247, 255), 0 0 60px rgb(0, 247, 255), 0 0 70px rgb(0, 247, 255), 0 0 80px rgb(0, 247, 255);
+  }
+}
+
+.heading-home {
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  background-color:aqua;
+  padding: 1rem;
+}
+
+.welcome-user {
+  color: white;
+}
+
+.p-message {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+
+}
+
+.outer {
+  position: relative;
+  background: #111;
+}
+
+.button {
+  height: 70px;
+  width: 220px;
+  border-radius: 50px;
+}
+
+.outer button,
+.outer span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.outer button {
+  background: #111;
+  color: #f2f2f2;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.button button {
+  height: 60px;
+  width: 210px;
+  border-radius: 50px;
+}
+
+.outer:hover {
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  animation: rotate 1.5s linear infinite;
+
+}
+
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.one {
+  padding: 2rem;
+}
+
+.neon-ul {
+  display: inline;
+}
+
+.list {}
+
+
+.footer {
+  background-color:aqua;
+  color: black;
+  margin: 2rem 0 0;
+  padding: 2rem 0;
+
+}
+
+.footer h2 {
+  text-align: center;
+}
+
+.div-footer {
+  max-width: 600px;
+  margin: auto;
+}
+
+.text-translate {
+  width: 28rem;
+  height: 10rem;
+  color:white;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  background-color:black;
+border-radius:0.5rem;
+outline:none;
+}
+
+.button-translate {
+  margin: 2rem 35%;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.div-output {
+  border: 1px solid white;
+  height: 5rem;
+  width: 30rem;
+  margin: 2rem 35%;
+  background-color:white;
+color:black;
+  overflow: scroll;
+}
+
+.textarea-glow {
+  color: black;
+  font-size: 4rem;
+  height: 10.3rem;
+  width: 28.3rem;
+  margin:6rem 35% 0;
+  background-color:rgb(14, 4, 4);
+  border-radius:0.5rem;
+  animation: shine 1s ease-in-out infinite alternate;
+}
+/* .output-glow{
+  color: black;
+  font-size: 4rem;
+  height: 7.3rem;
+  width: 28.3rem;
+  margin:3rem 35%;
+  background-color:black;
+  border-radius:0.5rem;
+  animation: shine 1s ease-in-out infinite alternate;
+} */
+
+@keyframes shine {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px rgb(50, 237, 243);
+  }
+
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px rgb(0, 247, 255);
+  }
+}
