@@ -5,17 +5,21 @@ var output = document.querySelector("#output");
 button.addEventListener("click" , clickhandler);
 
 var url="https://api.funtranslations.com/translate/asian-accent.json";
+// function clickhandler(){
+//  var final = url+"?text="+input.value;
+//     fetch(final)
+//     .then(response => response.json())
+//     .then(json =>{
+//        var translated = json.contents.translated;
+//        output.innerHTML = translated;
+//     })
+//     .check(()=> alert("Server Problem"));
+
+
+// }
+
 function clickhandler(){
- var final = url+"?text="+input.value;
-    fetch(final)
-    .then(response => response.json())
-    .then(json =>{
-       var translated = json.contents.translated;
-       output.innerHTML = translated;
-    })
-    .check(()=> alert("Server Problem"));
-
-
+    alert("There is a server problem in this API. Please try another one");
 }
 
 var home = document.querySelector("#go-to");
