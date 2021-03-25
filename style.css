@@ -1,41 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 body {
   background-color: black;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
   margin: 0%;
   padding: 0;
   color: white;
 }
 
 .text-area-first-page {
-  width:200px;
+  width: 200px;
   height: 10px;
-  margin-left:55px;
+  margin-left: 55px;
   animation: glow 1s ease-in-out infinite alternate;
-  font-family: 'Spartan', sans-serif;
-  font-size:10px;
+  font-family: "Spartan", sans-serif;
+
+  font-size: 10px;
 }
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 2px #fff, 0 0 5px rgb(50, 237, 243), 0 0 10px rgb(50, 237, 243), 0 0 15px rgb(50, 237, 243), 0 0 20px rgb(50, 237, 243), 0 0 25px rgb(50, 237, 243), 0 0 27px rgb(50, 237, 243);
+    text-shadow: 0 0 2px #fff, 0 0 5px rgb(50, 237, 243),
+      0 0 10px rgb(50, 237, 243), 0 0 15px rgb(50, 237, 243),
+      0 0 20px rgb(50, 237, 243), 0 0 25px rgb(50, 237, 243),
+      0 0 27px rgb(50, 237, 243);
   }
 
   to {
-    text-shadow: 0 0 4px #fff, 0 0 10px rgb(0, 247, 255), 0 0 15px rgb(0, 247, 255), 0 0 20px rgb(0, 247, 255), 0 0 25px rgb(0, 247, 255), 0 0 30px rgb(0, 247, 255), 0 0 40px rgb(0, 247, 255);
+    text-shadow: 0 0 4px #fff, 0 0 10px rgb(0, 247, 255),
+      0 0 15px rgb(0, 247, 255), 0 0 20px rgb(0, 247, 255),
+      0 0 25px rgb(0, 247, 255), 0 0 30px rgb(0, 247, 255),
+      0 0 40px rgb(0, 247, 255);
   }
 }
 
-
-
 .name {
-  margin:200px 15px 0;
+  margin: 200px 15px 0;
   color: black;
   font-size: 20px;
-  padding:20px;
+  padding: 20px;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
@@ -43,16 +47,16 @@ body {
   color: black;
   font-size: 30px;
   text-align: center;
-  background-color:aqua;
- width:100%;
- padding:7px;
+  background-color: aqua;
+  width: 100%;
+  padding: 7px;
 }
 
 .welcome-user {
-  margin:30px 0 0;
+  margin: 30px 0 0;
   font-size: 15px;
-  text-align:center;
-  padding-top:10px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .span-neon {
@@ -61,59 +65,61 @@ body {
   color: black;
 }
 
-
 .div-message {
   color: white;
   text-align: center;
   font-size: 14px;
-  padding:10px 0;
-  margin:20px;
-  max-width:300px;
-
+  padding: 10px 0;
+  margin: 20px;
+  max-width: 300px;
 }
-.obutton{
-  height:60px;
-  width:170px;
+
+.obutton {
+  height: 60px;
+  width: 170px;
   background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
   animation: rotate 1s linear infinite;
-  border-radius:10px;
-  margin:20px;
- 
+  border-radius: 10px;
+  margin: 20px;
 }
 
-.ibutton{
-  height:50px;
-  width:160px;
-  margin:3px;
-  font-size:13px;
-  background-color:#111;
-  outline:none;
-  border:none;
-  border-radius:10px;
+.ibutton {
+  height: 50px;
+  width: 160px;
+  margin: 3px;
+  font-size: 13px;
+  background-color: #111;
+  outline: none;
+  border: none;
+  border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.ibutton{
+
+.ibutton {
   animation: shine 2s ease-in-out infinite alternate;
 }
-.asianb{
-  margin:4% 30px;
-}
-.russianb{
-  margin:0 140px 5%;
- 
-}
-.germanb{
-  margin:4 30px 0;
+
+.asianb {
+  margin: 4% 30px;
 }
 
-.britishb{
-  margin:4px 140px;
+.russianb {
+  margin: 0 140px 5%;
 }
 
-.southernb{
-  margin: 4% 30px ;
+.germanb {
+  margin: 4 30px 0;
 }
+
+.britishb {
+  margin: 4px 140px;
+}
+
+.southernb {
+  margin: 4% 30px;
+}
+
 @keyframes rotate {
   0% {
     filter: hue-rotate(0deg);
@@ -130,11 +136,10 @@ body {
 }
 
 .footer {
-  background-color:aqua;
+  background-color: aqua;
   color: black;
-  font-size:14px;
-  width:100%;
-  
+  font-size: 14px;
+  width: 100%;
 }
 
 .footer h2 {
@@ -143,59 +148,58 @@ body {
 
 .div-footer {
   max-width: 300px;
-margin:auto;
+  margin: auto;
 }
+
 .textarea-glow {
   color: black;
   font-size: 20px;
   height: 150px;
-  width:275px;
-  margin:50px 5% 0;
-  background-color:black;
-  border-radius:0.5rem;
+  width: 275px;
+  margin: 50px 5% 0;
+  background-color: black;
+  border-radius: 0.5rem;
   animation: shine 1s ease-in-out infinite alternate;
-  outline:none;
-  border:none;
-
+  outline: none;
+  border: none;
 }
 
 .text-translate {
   width: 275px;
   height: 150px;
-  color:white;
-  font-family: 'Kalam', cursive;
+  color: white;
+  font-family: "Kalam", cursive;
   font-size: 12px;
-  background-color:black;
-border-radius:0.5rem;
-outline:none;
-border:none;
+  background-color: black;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
 }
 
 .button-translate {
- margin:20px 5%;
+  margin: 20px 5%;
   border-radius: 0.5rem;
-  curser:pointer;
+  curser: pointer;
 }
 
 .div-output {
   border: 1px solid white;
-  height:150px;
+  height: 150px;
   width: 290px;
-  margin:10px 5% 0;
-  font-family: 'Kalam', cursive;
-  background-color:black;
-color:white;
+  margin: 10px 5% 0;
+  font-family: "Kalam", cursive;
+  background-color: black;
+  color: white;
   overflow: scroll;
 }
 
-
-.output-glow{
+.output-glow {
   color: white;
   font-size: 12px;
-  height:150px;
+  height: 150px;
   width: 275px;
-  background-color:black;
-  border-radius:0.5rem;
+  background-color: black;
+  border-radius: 0.5rem;
   animation: shine 1s ease-in-out infinite alternate;
 }
 
@@ -209,87 +213,93 @@ color:white;
   }
 }
 
-.button-g{
-  height:50px;
-  width:50px;
+.button-g {
+  height: 50px;
+  width: 50px;
   background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
-  border-radius:50%;
-  margin:-137% 79% 105% ;
-  animation: btrotate 1s linear infinite;
-
-}
-.button-b{
-  height:50px;
-  width:50px;
-  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
-  border-radius:50%;
-  margin:-50% 75% 60%;
+  border-radius: 50%;
+  margin: -137% 79% 105%;
   animation: btrotate 1s linear infinite;
 }
 
-.cbutton{
-  height:42px;
-  width:42px;
-  border-radius:50%;
-  color:white;
-  margin:4px;
-  background-color:black;
-  border:none;
-  outline:none;
+.button-b {
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 50%;
+  margin: -50% 75% 60%;
+  animation: btrotate 1s linear infinite;
+}
+
+.cbutton {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  color: white;
+  margin: 4px;
+  background-color: black;
+  border: none;
+  outline: none;
   text-transform: uppercase;
-  font-size:8.7px;
+  font-size: 8.7px;
   letter-spacing: 0.2px;
 }
-.cbuttonn{
-  height:42px;
-  width:42px;
-  border-radius:50%;
-  color:white;
-  margin:4px;
-  background-color:black;
-  border:none;
-  outline:none;
+
+.cbuttonn {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  color: white;
+  margin: 4px;
+  background-color: black;
+  border: none;
+  outline: none;
   text-transform: uppercase;
-  font-size:8.7px;
+  font-size: 8.7px;
   letter-spacing: 0.2px;
   cursor: pointer;
 }
 
-
-
-@keyframes btrotate{
-  0%{
+@keyframes btrotate {
+  0% {
     filter: hue-rotate(0deg);
   }
-  100%{
-    filter:hue-rotate(360deg);
+
+  100% {
+    filter: hue-rotate(360deg);
   }
 }
 
-@media only screen and (min-width:375px){
-  .name{
-    width:100%;
-    margin:20px 20px 0;
+@media only screen and (min-width: 375px) {
+  .name {
+    width: 100%;
+    margin: 20px 20px 0;
   }
-  .button-g{
-    margin-top:-117%;
+
+  .button-g {
+    margin-top: -117%;
   }
-  .button-b{
-    margin-top:-58%;
-  }
-}
-@media only screen and (min-width:414px){
-  .name{
-    width:100%;
-    margin:20px 20px 0;
-  }
-  .button-g{
-    margin-top:-110%;
-  }
-  .button-b{
-    margin-top:-58%;
+
+  .button-b {
+    margin-top: -58%;
   }
 }
+
+@media only screen and (min-width: 414px) {
+  .name {
+    width: 100%;
+    margin: 20px 20px 0;
+  }
+
+  .button-g {
+    margin-top: -110%;
+  }
+
+  .button-b {
+    margin-top: -58%;
+  }
+}
+
 /* gdjdnfhfdbnvdnbdznvfhgsvfjhsvfehsfdjshefdcvjzhfdcvbnszvdbgbw wvfdgcvhvmehwjvhewfehjsvhsdvdhfcvhfdb ,cjhc 
 
 
@@ -298,236 +308,242 @@ chqkebe
 
 margin check*/
 
-@media only screen and (min-width:1440px){
- 
-.text-area-first-page {
-  width:30%;
-  height: 2rem;
-  margin: 0% 35%;
-  font-size:25px;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px rgb(50, 237, 243), 0 0 30px rgb(50, 237, 243), 0 0 40px rgb(50, 237, 243), 0 0 50px rgb(50, 237, 243), 0 0 60px rgb(50, 237, 243), 0 0 70px rgb(50, 237, 243);
+@media only screen and (min-width: 1440px) {
+  .text-area-first-page {
+    width: 30%;
+    height: 2rem;
+    margin: 0% 35%;
+    font-size: 25px;
   }
 
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px rgb(0, 247, 255), 0 0 40px rgb(0, 247, 255), 0 0 50px rgb(0, 247, 255), 0 0 60px rgb(0, 247, 255), 0 0 70px rgb(0, 247, 255), 0 0 80px rgb(0, 247, 255);
-  }
-}
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px rgb(50, 237, 243),
+        0 0 30px rgb(50, 237, 243), 0 0 40px rgb(50, 237, 243),
+        0 0 50px rgb(50, 237, 243), 0 0 60px rgb(50, 237, 243),
+        0 0 70px rgb(50, 237, 243);
+    }
 
-
-.name {
-  margin:17% 9.5% 0;
-  widows: 100%;
-  font-size: 100px;
-}
-
-.heading-home {
-  font-size: 4rem;
- padding:1rem;
-}
-
-.welcome-user {
-  margin:5rem 0 0;
-  font-size: 4rem;
-  padding:2rem;
-
-}
-
-.span-neon {
-  font-size:6rem;
-}
-
-
-.div-message {
-  font-size: 2rem;
-  margin:auto;
-  max-width:100%;
-}
-
-.obutton{
-  height:6rem;
-  width:28rem;
-  border-radius:5rem;
-  background: black;
-  position: relative;
-  animation:none;
-}
-.obutton:hover{
-  height:6rem;
-  width:28rem;
-  border-radius:5rem;
-  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
-  animation: rotate 1s linear infinite;
-}
-
-
-.ibutton{
-  height:5rem;
-  width:26rem;
-  margin:0.5rem;
-  font-size:2rem;
-  background-color:#111;
-  outline:none;
-  border:none;
-  border-radius:5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  cursor: pointer;
-  animation:none;
-}
-.asianb{
-  margin:4% 30px;
-}
-.russianb{
-  margin:-10.5% 35% 5%;
- 
-}
-.germanb{
-  margin:-11.5% 67% 0;
-}
-
-.britishb{
-  margin:4% 18% 0;
-}
-
-.southernb{
-  margin: -6.5% 55% 0 ;
-}
-@keyframes rotate {
-  0% {
-    filter: hue-rotate(0deg);
-    box-shadow: 0 0 20px #fff, 0 0 30px rgb(50, 237, 243);
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(0, 247, 255),
+        0 0 40px rgb(0, 247, 255), 0 0 50px rgb(0, 247, 255),
+        0 0 60px rgb(0, 247, 255), 0 0 70px rgb(0, 247, 255),
+        0 0 80px rgb(0, 247, 255);
+    }
   }
 
-  100% {
-    filter: hue-rotate(360deg);
-  box-shadow: 0 0 20px #fff, 0 0 30px rgb(0, 247, 255);
-  }
-}
-
-.link {
-  text-decoration: none;
-  color: white;
-}
-
-.footer {
-  margin:5% 0 0;
-  font-size:1.5rem;
-  padding:0.5rem;
-}
-
-.footer h2 {
-  text-align: center;
-}
-
-.div-footer {
-  max-width: 800px;
-margin:auto;
-}
-.textarea-glow {
-  height: 11rem;
-  width:41rem;
-  margin:5% 25% 0;
-  border-radius:0.1rem;
-  background-color: black;
-}
-
-.text-translate {
-  width: 40rem;
-  height: 10rem;
- font-size: 20px;
-border-radius:0.7rem;
-padding:0.3rem;
-}
-
-.button-translate {
- margin:3% 25% ;
-  border-radius: 0.5rem;
- cursor: pointer;
- font-size:20px;
- padding:0.3rem;
-}
-
-.div-output {
-  height:6rem;
-  width: 40rem;
-  border-radius: 0.5rem;
-}
-
-
-.output-glow{
-  color: white;
-  font-size:16px;
-  height:7rem;
-  width: 40rem;
-  border-radius:0.1rem;
-  margin:0% 25% 7%;
-}
-
-@keyframes shine {
-  from {
-    box-shadow: 0 0 10px #fff, 0 0 20px rgb(50, 237, 243);
+  .name {
+    margin: 17% 9.5% 0;
+    widows: 100%;
+    font-size: 100px;
   }
 
-  to {
-    box-shadow: 0 0 20px #fff, 0 0 40px rgb(0, 247, 255);
+  .heading-home {
+    font-size: 4rem;
+    padding: 1rem;
   }
-}
 
-.button-g{
-  height:180px;
-  width:180px;
-  border-radius:50%;
-  margin:-45% 75% 10%;
-}
-.button-b{
-  height:180px;
-  width:180px;
-  border-radius:50%;
-  margin: 25% 75% -10%;
-  background:none;
-  animation:none;
-}
-.button-b:hover{
-  height:180px;
-  width:180px;
-  border-radius:50%;
-  margin: 25% 75% -10%;
-  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
-  animation: rotate 1s linear infinite;
-}
-
-.cbutton{
-  height:160px;
-  width:160px;
-  border-radius:50%;
-  margin:7.7px;
-  font-size:35px;
-  letter-spacing: 2px;
-  cursor: pointer;
-  background-color: #111;
-
-}
-.cbuttonn{
-  height:160px;
-  width:160px;
-  margin:7.7px;
-  font-size:32px;
-  letter-spacing: 1.5px;
-  cursor:auto;
-}
-
-
-
-@keyframes btrotate{
-  0%{
-    filter: hue-rotate(0deg);
+  .welcome-user {
+    margin: 5rem 0 0;
+    font-size: 4rem;
+    padding: 2rem;
   }
-  100%{
-    filter:hue-rotate(360deg);
+
+  .span-neon {
+    font-size: 6rem;
   }
-} 
+
+  .div-message {
+    font-size: 2rem;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .obutton {
+    height: 6rem;
+    width: 28rem;
+    border-radius: 5rem;
+    background: black;
+    position: relative;
+    animation: none;
+  }
+
+  .obutton:hover {
+    height: 6rem;
+    width: 28rem;
+    border-radius: 5rem;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: rotate 1s linear infinite;
+  }
+
+  .ibutton {
+    height: 5rem;
+    width: 26rem;
+    margin: 0.5rem;
+    font-size: 2rem;
+    background-color: #111;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    animation: none;
+  }
+
+  .asianb {
+    margin: 4% 30px;
+  }
+
+  .russianb {
+    margin: -10.5% 35% 5%;
+  }
+
+  .germanb {
+    margin: -11.5% 67% 0;
+  }
+
+  .britishb {
+    margin: 4% 18% 0;
+  }
+
+  .southernb {
+    margin: -6.5% 55% 0;
+  }
+
+  @keyframes rotate {
+    0% {
+      filter: hue-rotate(0deg);
+      box-shadow: 0 0 20px #fff, 0 0 30px rgb(50, 237, 243);
+    }
+
+    100% {
+      filter: hue-rotate(360deg);
+      box-shadow: 0 0 20px #fff, 0 0 30px rgb(0, 247, 255);
+    }
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer {
+    margin: 5% 0 0;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .footer h2 {
+    text-align: center;
+  }
+
+  .div-footer {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .textarea-glow {
+    height: 11rem;
+    width: 41rem;
+    margin: 5% 25% 0;
+    border-radius: 0.1rem;
+    background-color: black;
+  }
+
+  .text-translate {
+    width: 40rem;
+    height: 10rem;
+    font-size: 20px;
+    border-radius: 0.7rem;
+    padding: 0.3rem;
+  }
+
+  .button-translate {
+    margin: 3% 25%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.3rem;
+  }
+
+  .div-output {
+    height: 6rem;
+    width: 40rem;
+    border-radius: 0.5rem;
+  }
+
+  .output-glow {
+    color: white;
+    font-size: 16px;
+    height: 7rem;
+    width: 40rem;
+    border-radius: 0.1rem;
+    margin: 0% 25% 7%;
+  }
+
+  @keyframes shine {
+    from {
+      box-shadow: 0 0 10px #fff, 0 0 20px rgb(50, 237, 243);
+    }
+
+    to {
+      box-shadow: 0 0 20px #fff, 0 0 40px rgb(0, 247, 255);
+    }
+  }
+
+  .button-g {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: -45% 75% 10%;
+  }
+
+  .button-b {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 25% 75% -10%;
+    background: none;
+    animation: none;
+  }
+
+  .button-b:hover {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 25% 75% -10%;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: rotate 1s linear infinite;
+  }
+
+  .cbutton {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 7.7px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: #111;
+  }
+
+  .cbuttonn {
+    height: 160px;
+    width: 160px;
+    margin: 7.7px;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    cursor: auto;
+  }
+
+  @keyframes btrotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
 }
