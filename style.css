@@ -135,20 +135,21 @@ body {
   color: white;
 }
 
-.footer {
+footer {
+  margin-top: 3rem;
   background-color: aqua;
   color: black;
-  font-size: 14px;
+  font-size: 20px;
   width: 100%;
-}
-
-.footer h2 {
   text-align: center;
+  padding: 2.5rem;
 }
-
-.div-footer {
-  max-width: 300px;
-  margin: auto;
+footer li {
+  display: inline;
+  margin: 1rem;
+}
+footer a {
+  color: black;
 }
 
 .textarea-glow {
